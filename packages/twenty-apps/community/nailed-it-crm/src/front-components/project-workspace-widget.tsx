@@ -19,7 +19,7 @@ const ProjectWorkspaceWidget = () => {
         <div>
           <div style={{ fontSize: 28, fontWeight: 800 }}>Project workspace</div>
           <div style={{ color: '#d0c4ad', marginTop: 4 }}>
-            A Houzz-style project shell with planning, management, and finance surfaces grouped for fast renovation execution.
+            A Houzz-style project shell with planning, schedule, management, and finance surfaces grouped for fast renovation execution.
           </div>
         </div>
         <div style={{ color: '#d0c4ad', background: '#1d2431', borderRadius: 14, padding: '10px 14px', whiteSpace: 'nowrap' }}>
