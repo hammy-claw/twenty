@@ -1,0 +1,10 @@
+generated
+node_modules
+dist
+.twenty
+.yarn
+.pnp.*
+coverage
+node_modules
+dist
+.twenty

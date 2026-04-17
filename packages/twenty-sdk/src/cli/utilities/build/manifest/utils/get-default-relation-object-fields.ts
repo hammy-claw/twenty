@@ -73,6 +73,9 @@ const DEFAULT_RELATION_CONFIGS = [
   },
 ] as const satisfies DefaultRelationConfig[];
 
+const shouldSkipDefaultRelationFields = () =>
+  process.env.TWENTY_SKIP_DEFAULT_RELATION_FIELDS === 'true';
+
 const buildReverseField = ({
   config,
   forwardFieldUniversalIdentifier,
@@ -122,6 +125,10 @@ const buildReverseField = ({
 export const getDefaultRelationObjectFields = (
   objectConfig: ObjectConfig,
 ): { objectFields: ObjectFieldManifest[]; fields: FieldManifest[] } => {
+  if (shouldSkipDefaultRelationFields()) {
+    return { objectFields: [], fields: [] };
+  }
+
   const objectFields: ObjectFieldManifest[] = [];
   const fields: FieldManifest[] = [];
 

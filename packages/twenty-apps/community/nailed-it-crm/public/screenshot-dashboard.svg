@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'>
+  <rect width='1280' height='720' fill='#0f1115'/>
+  <rect x='64' y='64' width='1152' height='592' rx='28' fill='#171b22' stroke='#f6c453' stroke-width='2'/>
+  <rect x='96' y='112' width='300' height='60' rx='16' fill='#f6c453'/>
+  <rect x='96' y='208' width='520' height='320' rx='24' fill='#232a35'/>
+  <rect x='648' y='208' width='520' height='320' rx='24' fill='#232a35'/>
+  <rect x='96' y='560' width='1072' height='64' rx='18' fill='#232a35'/>
+  <text x='124' y='149' fill='#0f1115' font-family='Arial' font-size='28' font-weight='700'>Nailed It CRM</text>
+  <text x='124' y='258' fill='#f6c453' font-family='Arial' font-size='24' font-weight='700'>Leads</text>
+  <text x='676' y='258' fill='#f6c453' font-family='Arial' font-size='24' font-weight='700'>Projects</text>
+  <text x='124' y='602' fill='#ffffff' font-family='Arial' font-size='20'>Premium renovation CRM replacing Houzz with clearer scope, faster estimates, and better follow-up.</text>
+</svg>
